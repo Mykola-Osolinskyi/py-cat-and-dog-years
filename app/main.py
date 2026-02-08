@@ -19,6 +19,3 @@ def get_human_age(cat_age: int, dog_age: int) -> list[int]:
     dog_years = convert_to_human(dog_age, 5)
 
     return [cat_years, dog_years]
-
-if __name__ == "__main__":
-    print(get_human_age(10, -10))
